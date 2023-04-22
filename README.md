@@ -26,7 +26,7 @@ You need the following:
 - [ImageMagick](https://imagemagick.org/script/download.php). You probably already have this installed. The legacy version 6 works fine. If you don't have it, you can also install `imagemagick` from your OS package manager.
 - The following R packages. Run the following in the terminal after you've installed R.
 
-`Rscript -e "install.packages(c('tidyverse', 'knitr', 'scales', 'glue', 'shiny', 'shinythemes', 'reactable', 'htmltools', 'magick', 'exiftoolr'), repos='https://cran.rstudio.com')"`
+     Rscript -e "install.packages(c('tidyverse', 'knitr', 'scales', 'glue', 'shiny', 'shinythemes', 'reactable', 'htmltools', 'magick', 'exiftoolr'), repos='https://cran.rstudio.com')"
 
 ## Installation
 
