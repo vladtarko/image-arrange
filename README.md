@@ -1,8 +1,8 @@
 # Description
 
-![Image Arrange](screenshot.png)
-
 A Shiny R script that allows you to easily re-arrange the images in a folder. 
+
+![Image Arrange](screenshot.png)
 
 Once you've manually rearranged the images in the desired order, the script can rename all the files by adding a numeric prefix, such that they will appear in the desired order in file explorers and other programs. This can be used a preparation step for making a slideshow, e.g. in Kdenlive (or even directly in the command line with ffmpeg).
 
@@ -23,10 +23,16 @@ You can also set it up to be available when you right-click in your file manager
 You need the following:
 
 - R. Install from [R Project](https://cloud.r-project.org/) or install `r-base` from your OS package manager.
+ 
 - [ImageMagick](https://imagemagick.org/script/download.php). You probably already have this installed. The legacy version 6 works fine. If you don't have it, you can also install `imagemagick` from your OS package manager.
+
 - The following R packages. Run the following in the terminal after you've installed R.
 
       Rscript -e "install.packages(c('tidyverse', 'knitr', 'scales', 'glue', 'shiny', 'shinythemes', 'reactable', 'htmltools', 'magick', 'exiftoolr'), repos='https://cran.rstudio.com')"
+
+- Install `exiftool` by running the follwing in the terminal:
+
+    Rscript -e "exiftoolr::install_exiftool()"
 
 ## Installation
 
