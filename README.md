@@ -32,7 +32,7 @@ You need the following:
 
 - Install `exiftool` by running the follwing in the terminal:
 
-      Rscript -e "exiftoolr::install_exiftool()"
+       Rscript -e "exiftoolr::install_exiftool()"
 
 ## Installation
 
