@@ -108,7 +108,7 @@ ui <- fluidPage(
                   label = "Custom name to replace file names (leave empty to keep existing file names):", 
                   value = "", width = 250)
       )
-      #actionButton("test_btn", "TESTING!")
+      #actionButton("slideshow_btn", "Create slideshow (mp4)")
     ),
     fluidRow(
       sliderInput(inputId = "zoom",
@@ -264,11 +264,6 @@ server <- function(input, output, session) {
     updateThumbnails(df, selected = selected)
   })
   
-  
-  # test buttion ------------------------------------------------
-  # observeEvent(input$test_btn, {
-  #   if (input$file_name_txt == "") showNotification("Empty")
-  # })
   
   # rename all -------------------------------------------
   observeEvent(input$rename_btn, {
