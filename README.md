@@ -6,7 +6,7 @@ A Shiny R script that allows you to easily re-arrange the images in a folder.
 
 Once you've manually rearranged the images in the desired order, the script can rename all the files by adding a numeric prefix, such that they will appear in the desired order in file explorers and other programs. This can be used a preparation step for making a slideshow, e.g. in Kdenlive (or even directly in the command line with ffmpeg).
 
-The script can rename the files by adding the numeric prefix to the existing file names, or can use a different custom name for all files. The script also allows you to mark as 'skip' some of the files, and these will have the 'skip_' prefix to them, such that they will appear at the end in a file manager (you can them easily move them to some other folder).
+The script can rename the files by adding the numeric prefix to the existing file names, or can use a different custom name for all files. The script also allows you to mark as 'skip' some of the files, and these will have the 'skip_' prefix to them, such that they will appear at the end in a file manager (so you can them easily move them to some other folder).
 
 # Use
 
